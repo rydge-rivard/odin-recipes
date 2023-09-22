@@ -2,9 +2,13 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-ul,
+ul li,
 ol li{
     color: rgb(206, 175, 175);
     border: coral;
     font-size: 18px;
+}
+
+h1{
+    color: darkslategray;
 }
