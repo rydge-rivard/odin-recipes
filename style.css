@@ -1,5 +1,6 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 245, 231);
 }
 
 ul li,
@@ -7,8 +8,18 @@ ol li{
     color: rgb(206, 175, 175);
     border: coral;
     font-size: 18px;
+    padding-bottom: 2%;
+}
+
+ul.page li,
+ol.page li{
+    padding-bottom: 0%;
+    color: rgb(4, 35, 44);
 }
 
 h1{
     color: darkslategray;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
 }
