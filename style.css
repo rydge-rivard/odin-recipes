@@ -1,6 +1,7 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(255, 245, 231);
+    margin: 8px;
 }
 
 ul li,
@@ -22,4 +23,14 @@ h1{
     font-size: 40px;
     text-align: center;
     text-decoration: underline;
+}
+
+.inline-list li{
+    display: inline-block;
+    margin: auto;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 16px;
+    background-color: white;
 }
